@@ -1,0 +1,14 @@
+{
+  "font": "dist/rasmee-noofaru-style/RasmeeThaana-NoofaruStyle.ttf",
+  "sha256": "56980444a8add9e512fae56f015560a64f2400e543373e1243db7169053476e4",
+  "size_bytes": 101416,
+  "glyph_count": 295,
+  "mapped_codepoint_count": 278,
+  "thaana_assigned_coverage": "U+0780–U+07B1, 50 of 50",
+  "family": "Rasmee Thaana",
+  "style": "Regular",
+  "version": "Version 1.100",
+  "postscript_name": "RasmeeThaana-Regular",
+  "embedding_restrictions_fsType": 0,
+  "fontspector_googlefonts_profile": "NOT RUN; no Google Fonts compliance claim"
+}

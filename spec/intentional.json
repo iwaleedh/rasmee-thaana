@@ -1,0 +1,11 @@
+{
+ "uni07AF": "Lower hook raised (yMin 1062 vs 1016) so OABOAFILI clears the built-in dots/caret of U+0798, U+07A3, U+07A4, U+07A5; the reference's own placement collides there.",
+ "ThreeDots": "Caret apex lowered and ends sharpened so it clears SUKUN/OABOAFILI on U+0798 and U+079D.",
+ "uni0798": "Inherits the lowered caret (ThreeDots).",
+ "uni079D": "Inherits the lowered caret (ThreeDots).",
+ "uni25CC": "Dotted-circle carrier drawn smaller (radius 463u, 14 dots) per review so fili read clearly; it is a placeholder, not text.",
+ "_adjacent_fili_on_narrow_bases": "Fili sit at the reference's fixed positions (client requirement). On the 903-unit bases (ޥ, ޱ) upper fili of neighbouring clusters overlap in the reference itself (e.g. ހޫޥޫ, ހޮޥޮ); the candidate reproduces the same merged silhouette, verified by overlay proofs.",
+ "uni07AB": "Right curl drawn with a natively narrower outer shoulder (box xMax 1292 vs 1333) so the double-ooboofili merge on 903-unit bases stays within the reference's overlap, without relief lobes.",
+ "uni07AE": "Lower-left cap rounded and tapered (box xMin +40: 272 vs 232; nonspacing 271 vs 231) so ހޮޥޮ overlaps no more than the reference.",
+ "uni07AD": "Left curl heel as a convex arc (box xMin +14: 223 vs 209; nonspacing 224 vs 210) so ހޭޥޮ overlaps less than the reference."
+}

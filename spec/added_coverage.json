@@ -1,0 +1,597 @@
+{
+ "description": "Code points this release maps that the audited Faruma does not. Release-owned: used by release_qa (latin-removed control) and documented in dist/README.txt; independent of --ref.",
+ "approved_font_sha256": "a2ae5dec5ff661f22ad44bf9bd1a3c7a49119983e6c979a676d5ba712102240a",
+ "audited_faruma_sha256": "ff5985587f10897623704d8269b83e9f63e49dd58625078cac81204ee4d797e5",
+ "code_points": [
+  {
+   "cp": "U+00A0",
+   "glyph": "space",
+   "kind": "blank"
+  },
+  {
+   "cp": "U+00A1",
+   "glyph": "exclamdown",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00A2",
+   "glyph": "cent",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00A3",
+   "glyph": "sterling",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00A4",
+   "glyph": "currency",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00A5",
+   "glyph": "yen",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00A6",
+   "glyph": "brokenbar",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00A7",
+   "glyph": "section",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00A8",
+   "glyph": "dieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00A9",
+   "glyph": "copyright",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00AA",
+   "glyph": "ordfeminine",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00AC",
+   "glyph": "logicalnot",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00AD",
+   "glyph": "uni00AD",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00AE",
+   "glyph": "registered",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00AF",
+   "glyph": "macron",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B0",
+   "glyph": "degree",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B1",
+   "glyph": "plusminus",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B2",
+   "glyph": "twosuperior",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B3",
+   "glyph": "threesuperior",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B4",
+   "glyph": "acute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B5",
+   "glyph": "mu",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B6",
+   "glyph": "paragraph",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B8",
+   "glyph": "cedilla",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00B9",
+   "glyph": "onesuperior",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00BA",
+   "glyph": "ordmasculine",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00BC",
+   "glyph": "onequarter",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00BD",
+   "glyph": "onehalf",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00BE",
+   "glyph": "threequarters",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00BF",
+   "glyph": "questiondown",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C0",
+   "glyph": "Agrave",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C1",
+   "glyph": "Aacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C2",
+   "glyph": "Acircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C3",
+   "glyph": "Atilde",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C4",
+   "glyph": "Adieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C5",
+   "glyph": "Aring",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C6",
+   "glyph": "AE",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C7",
+   "glyph": "Ccedilla",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C8",
+   "glyph": "Egrave",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00C9",
+   "glyph": "Eacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00CA",
+   "glyph": "Ecircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00CB",
+   "glyph": "Edieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00CC",
+   "glyph": "Igrave",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00CD",
+   "glyph": "Iacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00CE",
+   "glyph": "Icircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00CF",
+   "glyph": "Idieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D0",
+   "glyph": "Eth",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D1",
+   "glyph": "Ntilde",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D2",
+   "glyph": "Ograve",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D3",
+   "glyph": "Oacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D4",
+   "glyph": "Ocircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D5",
+   "glyph": "Otilde",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D6",
+   "glyph": "Odieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D7",
+   "glyph": "multiply",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D8",
+   "glyph": "Oslash",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00D9",
+   "glyph": "Ugrave",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00DA",
+   "glyph": "Uacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00DB",
+   "glyph": "Ucircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00DC",
+   "glyph": "Udieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00DD",
+   "glyph": "Yacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00DE",
+   "glyph": "Thorn",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00DF",
+   "glyph": "germandbls",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E0",
+   "glyph": "agrave",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E1",
+   "glyph": "aacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E2",
+   "glyph": "acircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E3",
+   "glyph": "atilde",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E4",
+   "glyph": "adieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E5",
+   "glyph": "aring",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E6",
+   "glyph": "ae",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E7",
+   "glyph": "ccedilla",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E8",
+   "glyph": "egrave",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00E9",
+   "glyph": "eacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00EA",
+   "glyph": "ecircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00EB",
+   "glyph": "edieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00EC",
+   "glyph": "igrave",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00ED",
+   "glyph": "iacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00EE",
+   "glyph": "icircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00EF",
+   "glyph": "idieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F0",
+   "glyph": "eth",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F1",
+   "glyph": "ntilde",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F2",
+   "glyph": "ograve",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F3",
+   "glyph": "oacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F4",
+   "glyph": "ocircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F5",
+   "glyph": "otilde",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F6",
+   "glyph": "odieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F7",
+   "glyph": "divide",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F8",
+   "glyph": "oslash",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00F9",
+   "glyph": "ugrave",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00FA",
+   "glyph": "uacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00FB",
+   "glyph": "ucircumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00FC",
+   "glyph": "udieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00FD",
+   "glyph": "yacute",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00FE",
+   "glyph": "thorn",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+00FF",
+   "glyph": "ydieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+0152",
+   "glyph": "OE",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+0153",
+   "glyph": "oe",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+0160",
+   "glyph": "Scaron",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+0161",
+   "glyph": "scaron",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+0178",
+   "glyph": "Ydieresis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+017D",
+   "glyph": "Zcaron",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+017E",
+   "glyph": "zcaron",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+0192",
+   "glyph": "florin",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+02C6",
+   "glyph": "circumflex",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+02DC",
+   "glyph": "tilde",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+200C",
+   "glyph": "uni200C",
+   "kind": "control"
+  },
+  {
+   "cp": "U+200D",
+   "glyph": "uni200D",
+   "kind": "control"
+  },
+  {
+   "cp": "U+200E",
+   "glyph": "uni200E",
+   "kind": "control"
+  },
+  {
+   "cp": "U+200F",
+   "glyph": "uni200F",
+   "kind": "control"
+  },
+  {
+   "cp": "U+201A",
+   "glyph": "quotesinglbase",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+201E",
+   "glyph": "quotedblbase",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+2020",
+   "glyph": "dagger",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+2021",
+   "glyph": "daggerdbl",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+2026",
+   "glyph": "ellipsis",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+2030",
+   "glyph": "perthousand",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+2039",
+   "glyph": "guilsinglleft",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+203A",
+   "glyph": "guilsinglright",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+20AC",
+   "glyph": "Euro",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+2122",
+   "glyph": "trademark",
+   "kind": "inked"
+  },
+  {
+   "cp": "U+FDFD",
+   "glyph": "uniFDFD",
+   "kind": "inked"
+  }
+ ]
+}

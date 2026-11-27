@@ -1,0 +1,45 @@
+Rasmee Thaana source bundle
+
+1. Create a clean virtual environment with the tested Python (CPython 3.10.8) and install the pinned packages:
+
+python3.10 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+
+2. Release build: build_and_verify.sh is the ONLY release recipe. It pins the release epoch, version and
+   hinting, checks the SHA-256 and installs only a matching font. Then run the release gate:
+
+PYTHON=.venv/bin/python bash build_and_verify.sh && .venv/bin/python tools/baseline_check.py RasmeeThaana-Regular.ttf
+
+   The two steps are chained with &&: the gate runs only on a freshly verified build, so an older
+   RasmeeThaana-Regular.ttf can never mask a failed rebuild.
+
+   For reference only, the BUILD-ONLY command it wraps is shown below. It does no digest check and is not a
+   release build; do not ship its output without the chained command above:
+
+env -i PATH="$PATH" HOME="$HOME" SOURCE_DATE_EPOCH=1795737600 FONT_VERSION=1.007 .venv/bin/python tools/build.py build-only.ttf
+
+   Expected SHA-256 of RasmeeThaana-Regular.ttf: a2ae5dec5ff661f22ad44bf9bd1a3c7a49119983e6c979a676d5ba712102240a
+
+3. QA. Faruma is NOT included; it belongs to the President's Office. Reviewers with authorised access
+   save it as Faruma.ttf beside this file. The audited file has SHA-256
+   ff5985587f10897623704d8269b83e9f63e49dd58625078cac81204ee4d797e5.
+   baseline_check needs no Faruma. release_qa runs all four checks and 24 designated, self-verified
+   controls. Every command exits with status 1 on any failure, invalid or missing input, or unknown option.
+   release_qa interrupted with Ctrl-C writes a 'cancelled' SUMMARY.txt and exits with status 130.
+
+.venv/bin/python tools/baseline_check.py RasmeeThaana-Regular.ttf
+.venv/bin/python tools/clearance.py RasmeeThaana-Regular.ttf --ref Faruma.ttf
+.venv/bin/python tools/shapecheck.py RasmeeThaana-Regular.ttf --ref Faruma.ttf --corpus spec/corpus.txt
+.venv/bin/python tools/script_tests.py RasmeeThaana-Regular.ttf --ref Faruma.ttf
+.venv/bin/python tools/clearance_full.py RasmeeThaana-Regular.ttf --ref Faruma.ttf
+.venv/bin/python tools/detail_plates.py RasmeeThaana-Regular.ttf plates --ref Faruma.ttf
+.venv/bin/python tools/release_qa.py RasmeeThaana-Regular.ttf --ref Faruma.ttf --out qa-logs
+
+Input SHA-256:
+058ea80864aef09a23f45cbec2bb5400bc3dfbdea01c3f10538a21fcb497fb74  latin/liberation-fonts-ttf-2.1.5/LiberationSerif-Regular.ttf
+93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b  latin/liberation-fonts-ttf-2.1.5/LICENSE
+b627404917ef824675cb24c32e2facd0b57650627955f3fc3d8a8863c5d0adfc  latin/liberation-fonts-ttf-2.1.5/AUTHORS
+cd2550c0f4c05eb341bf97958211aaa39382bca96577ba3a67d4a3b4912c43c0  latin/Amiri-1.003/Amiri-Regular.ttf
+8cfed49b66de57e360ac61631d882dddfa23095d3ddb39fc2133eaf93892e79a  latin/Amiri-1.003/Amiri-Bold.ttf
+72de68e5954f4fdd24702292ef5a32f003ca960ec9330dc86e5eefb5dffb9b22  latin/Amiri-1.003/OFL.txt
+b51fbcdd2a2b9f6ec0d16a6783cc53f2c357a6aaa57d6d77665d7da782defda5  OFL.txt
